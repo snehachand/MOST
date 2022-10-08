@@ -22,4 +22,4 @@ maskedImage_s{2}=maskedImage;
 figure;imshow(Mask_s{2},[])
 figure;imshow(maskedImage_s{2},[])
 imwrite(Ms_cube, 'test.tiff', 'WriteMode', 'append');
-% save('IMG.mat','rawdata','img','Ms_cube','Mask_s','maskedImage_s');
+save('IMG.mat','rawdata','img','Ms_cube','Mask_s','maskedImage_s');
